@@ -115,8 +115,8 @@ new Dropdown({
 })
 ```
 
+## License
+MIT
 
-
-
-
-
+## Author
+Ismail Demirbilek - [@dbtek](https://twitter.com/dbtek)
