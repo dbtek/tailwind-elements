@@ -1,5 +1,4 @@
 var html = require('bel')
-var _ = require('ipret').translate
 
 module.exports = (title, subtitle) => html `
 <header>
