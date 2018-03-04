@@ -104,7 +104,15 @@ Dropdown menu item element.
 **Example**
 ```js
 var Dropdown = require('tailwind-elements/Dropdown')
-new Dropdown(props)
+var dropdownMenuItem = require('tailwind-elements/dropdown-menu-item')
+
+new Dropdown({
+  label: User,
+  items: [
+    dropdownMenuItem({ label: 'My Account', href: '/account/profile' }),
+    dropdownMenuItem({ label: 'Logout', href: '/account/logout' })
+  ]
+})
 ```
 
 
