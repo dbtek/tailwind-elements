@@ -1,0 +1,16 @@
+{
+  "name": "tailwind-elements",
+  "version": "1.0.0",
+  "description": "Reusable DOM elements built with Tailwind CSS.",
+  "main": "index.js",
+  "repository": "git@github.com:dbtek/tailwind-elements.git",
+  "author": "İsmail Demirbilek <ce.demirbilek@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "tailwindcss": "^0.4.2"
+  },
+  "dependencies": {
+    "bel": "^5.1.7",
+    "nanocomponent": "^6.5.1"
+  }
+}
