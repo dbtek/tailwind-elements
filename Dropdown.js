@@ -27,13 +27,13 @@ class Dropdown extends Component {
         ${this.opened ? html `
           <div class="absolute pin bg-black-lightest z-10" onclick=${this.toggle.bind(this)}></div>
         `: ''}
-        <div class="relative">
+        <div class="relative ${className}">
           <a class="p-3 rounded cursor-pointer" onclick=${this.toggle.bind(this)}>
             ${label}
           </a>
           ${this.opened ? html `
             <div class="z-20 rounded shadow-md mt-8 bg-white absolute pin-t pin-l min-w-full">
-              <ul class="list-reset">
+              <ul class="list-reset text-left">
                 ${items}
               </ul>
             </div>
